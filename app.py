@@ -1,5 +1,5 @@
-def saludar(nombre):
-    return f"Hola {nombre}!"
+def hello():
+    return "Hello World!"
 
 if __name__ == "__main__":
-    print(saludar("GitHub Actions"))
+    print(hello())
