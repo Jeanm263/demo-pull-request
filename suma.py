@@ -9,5 +9,3 @@ resultado_esperado = 9
 
 if resultado == resultado_esperado:
     print("La función sumar funciona correctamente")
-else:
-    print("La función sumar no funciona correctamente")
