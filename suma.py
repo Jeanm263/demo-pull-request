@@ -1,6 +1,13 @@
-def sumar(a, b):
+def sumar(a,b):
     return a + b
+numero1 = 5
+numero2 = 3
+resultado = sumar(numero1, numero2)
+print(f"La suma de {numero1} y {numero2} es {resultado}")
 
-# Ejemplo de uso
-resultado = sumar(5, 3)
-print(f"5 + 3 = {8}")
+resultado_esperado = 8
+
+if resultado == resultado_esperado:
+    print("La función sumar funciona correctamente")
+else:
+    print("La función sumar no funciona correctamente")
