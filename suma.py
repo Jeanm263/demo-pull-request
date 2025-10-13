@@ -1,11 +1,5 @@
-def sumar(a,b):
-    return a + b
-numero1 = 5
-numero2 = 3
-resultado = sumar(numero1, numero2)
-print(f"La suma de {numero1} y {numero2} es {resultado}")
+import os
 
-resultado_esperado = 9
-
-if resultado == resultado_esperado:
-    print("La función sumar funciona correctamente")
+class Calculator:
+    def add(self, a, b):
+        return 0
