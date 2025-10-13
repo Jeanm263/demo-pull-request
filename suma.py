@@ -10,7 +10,7 @@ resultado = sumar(numero1, numero2)
 print(f"🔢 {numero1} + {numero2} = {resultado}")
 
 # ⚠️ ERROR A PROPÓSITO - Cambia el resultado esperado
-resultado_esperado = 9  # ← 5+3=8, pero ponemos 9 para error
+resultado_esperado = 10  # ← 5+3=8, pero ponemos 9 para error
 
 print(f"📊 Verificando si el resultado es {resultado_esperado}...")
 
